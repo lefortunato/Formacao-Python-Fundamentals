@@ -1,4 +1,14 @@
+<div align="center">
+  
 # 📦 Módulo 2: Variáveis e Tipos de Dados
+
+![Status](https://img.shields.io/badge/Status-Concluído-success)
+![Metodologia](https://img.shields.io/badge/Python-blue)
+![Nível](https://img.shields.io/badge/Nível-Iniciante-yellow)
+
+</div>
+
+---
 
 Bem-vindo ao **Módulo 2**! Aqui você aprenderá como o Python armazena informações na memória do computador e como interagir com o usuário recebendo dados pelo teclado.
 
