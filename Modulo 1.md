@@ -1,4 +1,14 @@
-# 🚀 Módulo 1: Introdução & Configuração
+<div align="center">
+  
+# 📘 Módulo 1: Introdução & Configuração
+
+![Status](https://img.shields.io/badge/Status-Concluído-success)
+![Metodologia](https://img.shields.io/badge/Python-blue)
+![Nível](https://img.shields.io/badge/Nível-Iniciante-yellow)
+
+</div>
+
+---
 
 Bem-vindo ao **Módulo 1**! O objetivo deste módulo é deixar o seu ambiente de desenvolvimento pronto e executar o seu primeiro programa em Python.
 
