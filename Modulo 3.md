@@ -1,6 +1,6 @@
 <div align="center">
   
-# 📘 Conteúdo Prático: Módulo 3 – Tipos de Operadores
+# 📘 Módulo 3: Tipos de Operadores em Python
 
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![Metodologia](https://img.shields.io/badge/Python-blue)
@@ -9,15 +9,17 @@
 </div>
 
 ---
+Bem-vindo ao **Módulo 3** do curso! Neste módulo, você aprenderá como manipular dados, realizar cálculos matemáticos, comparar valores e tomar decisões lógicas utilizando os operadores do Python.
 
-## 📋 Sumário
-1. [🔢 Operadores Aritméticos](#-1-operadores-aritméticos)
-2. [🔍 Operadores de Comparação](#-2-operadores-de-comparação)
-3. [📝 Operadores de Atribuição](#-3-operadores-de-atribuição)
-4. [🧠 Operadores Lógicos](#-4-operadores-lógicos)
-5. [🆔 Operadores de Identidade](#-5-operadores-de-identidade)
-6. [🔗 Operadores de Associação](#-6-operadores-de-associação)
-7. [🎯 Exercícios Práticos do Módulo](#-7-exercícios-práticos-do-módulo)
+## 📌 Sumário de Conteúdos
+
+1. [🔢 Operadores Aritméticos](#1-operadores-aritméticos)
+2. [🔍 Operadores de Comparação](#2-operadores-de-comparação)
+3. [📝 Operadores de Atribuição](#3-operadores-de-atribuição)
+4. [🧠 Operadores Lógicos](#4-operadores-lógicos)
+5. [🆔 Operadores de Identidade](#5-operadores-de-identidade)
+6. [🔗 Operadores de Associação](#6-operadores-de-associação)
+7. [🎯 Exercícios Práticos do Módulo](#7-exercícios-práticos-do-módulo)
 8. [🔗 Como Contribuir / Contato](#-como-contribuir--contato)
 ---
 
@@ -25,25 +27,33 @@
 
 1. Abra o **VS Code**.
 2. Crie uma pasta chamada `modulo_3_operadores`.
-3. Para cada seção abaixo, crie o arquivo correspondente indicado nos exemplos (ex: `operadores_aritmeticos.py`).
+3. Para cada seção abaixo, crie o arquivo correspondente indicado nos exemplos (ex: `01_aritmeticos.py`).
 4. Abra o terminal integrado (`Ctrl + '` ou `Cmd + '`) e execute o comando:
-
    ```bash
-   python operadores_aritmeticos.py
+   python 01_aritmeticos.py
    ```
 
 ---
 
-## 🌟 **Tipos de Operadores** </br>
-Abaixo estão as explicações didáticas e scripts prontos para os alunos executarem no VS Code (você pode criar um arquivo chamado `operadores_aritmeticos.py`).
+### 1. Operadores Aritméticos
 
-### 🔢 1. Operadores Aritméticos
+Usados para executar operações matemáticas clássicas.
 
-Servem para realizar cálculos matemáticos básicos.
+#### Tabela de Operadores Aritméticos
+
+| Operador | Nome | Descrição | Exemplo |
+| :--- | :--- | :--- | :--- |
+| `+` | Adição | Soma dois valores | `5 + 3` (8) |
+| `-` | Subtração | Subtrai o segundo valor do primeiro | `5 - 3` (2) |
+| `*` | Multiplicação | Multiplica dois valores | `5 * 3` (15) |
+| `/` | Divisão | Divide e retorna resultado em `float` | `5 / 2` (2.5) |
+| `//` | Divisão Inteira | Divide e descarta as casas decimais | `5 // 2` (2) |
+| `%` | Módulo / Resto | Retorna o resto da divisão inteira | `5 % 2` (1) |
+| `**` | Exponenciação | Eleva o valor à potência | `2 ** 3` (8) |
+
+#### Exemplo Prático (`01_aritmeticos.py`)
 
 ```python
-# operadores_aritmeticos.py
-
 a = 10
 b = 3
 
@@ -56,103 +66,186 @@ print("Módulo/Resto (%):", a % b)   # 1 (resto da divisão)
 print("Exponenciação (**):", a ** b)# 1000 (10 elevado a 3)
 ```
 
-### 🔍 2. Operadores de Comparação
+---
 
-Comparam dois valores e retornam sempre um valor booleano: True (Verdadeiro) ou False (Falso).
+### 2. Operadores de Comparação
+
+Comparam dois valores e sempre retornam um resultado booleano (`True` ou `False`).
+
+#### Tabela de Operadores de Comparação
+
+| Operador | Nome | Exemplo | Resultado |
+| :--- | :--- | :--- | :--- |
+| `==` | Igual a | `10 == 10` | `True` |
+| `!=` | Diferente de | `10 != 5` | `True` |
+| `>` | Maior que | `10 > 5` | `True` |
+| `<` | Menor que | `10 < 5` | `False` |
+| `>=` | Maior ou igual a | `10 >= 10` | `True` |
+| `<=` | Menor ou igual a | `5 <= 10` | `True` |
+
+#### Exemplo Prático (`02_comparacao.py`)
 
 ```python
-# operadores_comparacao.py
-
 x = 5
 y = 10
 
-print("Igual a (==):", x == y)        # False
-print("Diferente de (!=):", x != y)   # True
-print("Maior que (>):", x > y)        # False
-print("Menor que (<):", x < y)        # True
-print("Maior ou igual (>=):", x >= 5) # True
-print("Menor ou igual (<=):", y <= 10)# True
+print("Igual a (==):", x == y)         # False
+print("Diferente de (!=):", x != y)    # True
+print("Maior que (>):", x > y)         # False
+print("Menor que (<):", x < y)         # True
+print("Maior ou igual (>=):", x >= 5)  # True
+print("Menor ou igual (<=):", y <= 10) # True
 ```
 
-### 📝 3. Operadores de Atribuição
+---
 
-Usados para definir ou atualizar o valor de uma variável de forma abreviada.
+### 3. Operadores de Atribuição
+
+Servem para definir ou atualizar o valor de uma variável.
+
+#### Tabela de Operadores de atribuição
+
+| Operador | Equivalência | Descrição | Exemplo (`x = 10`) | Resultado |
+| :---: | :---: | :--- | :---: | :---: |
+| `=` | `x = 10` | Atribui um valor à variável | `x = 10` | `10` |
+| `+=` | `x = x + 5` | Soma e atualiza a variável | `x += 5` | `15` |
+| `-=` | `x = x - 3` | Subtrai e atualiza a variável | `x -= 3` | `7` |
+| `*=` | `x = x * 2` | Multiplica e atualiza a variável | `x *= 2` | `20` |
+| `/=` | `x = x / 2` | Divide e atualiza a variável | `x /= 2` | `5.0` |
+| `//=` | `x = x // 3` | Aplica divisão inteira e atualiza | `x //= 3` | `3` |
+| `%=` | `x = x % 3` | Guarda o resto da divisão e atualiza | `x %= 3` | `1` |
+| `**=` | `x = x ** 2` | Eleva à potência e atualiza | `x **= 2` | `100` |
+
+#### Exemplo Prático (`03_atribuicao.py`)
 
 ```python
-# operadores_atribuicao.py
+print("--- OPERADORES DE ATRIBUIÇÃO ---")
+saldo = 100
+print("Saldo inicial:", saldo)
 
-numero = 10
-print("Valor inicial:", numero)
+saldo += 50  # Equivalente a: saldo = saldo + 50
+print("Após saldo += 50:", saldo)
 
-numero += 5  # Equivalente a: numero = numero + 5
-print("Após += 5:", numero) # 15
+saldo -= 30  # Equivalente a: saldo = saldo - 30
+print("Após saldo -= 30:", saldo)
 
-numero -= 3  # Equivalente a: numero = numero - 3
-print("Após -= 3:", numero) # 12
-
-numero *= 2  # Equivalente a: numero = numero * 2
-print("Após *= 2:", numero) # 24
+saldo *= 2   # Equivalente a: saldo = saldo * 2
+print("Após saldo *= 2:", saldo)
 ```
 
-### 🧠 4. Operadores Lógicos
+---
 
-Servem para combinar duas ou mais expressões de comparação.
-* `and:` Retorna True se todas as condições forem verdadeiras.
-* `or:` Retorna True se pelo menos uma condição for verdadeira.
-* `not:` Inverte o resultado booleano.
+### 4. Operadores Lógicos
+
+Os operadores lógicos são fundamentais para construir condições no código. Eles avaliam expressões e retornam um valor booleano (`True` ou `False`).
+
+#### Conceitos Básicos:
+* **`and` (E)**: Retorna `True` **apenas se todas** as expressões forem verdadeiras.
+* **`or` (OU)**: Retorna `True` se **pelo menos uma** das expressões for verdadeira.
+* **`not` (Negação)**: Inverte o valor lógico. Se algo for verdadeiro, torna-se `False`; se for falso (ou vazio), torna-se `True`.
+
+#### Exemplos Detalhados e Práticos (`04_logicos.py`)
+
+Crie o arquivo `04_logicos.py` no VS Code para rodar os exemplos abaixo:
 
 ```python
-# operadores_logicos.py
+# --- 1. EXEMPLO COM O OPERADOR 'and' ---
+# O operador 'and' exige que AMBAS as condições sejam True.
 
-idade = 20
-tem_carteira = True
+saldo = 1000
+saque = 200
+limite = 100
 
-# Precisa ter 18 anos OU MAIS e TAMBÉM ter carteira
-pode_dirigir = (idade >= 18) and tem_carteira
-print("Pode dirigir?", pode_dirigir) # True
+# Condição 1: saldo >= saque (1000 >= 200) -> True
+# Condição 2: saque <= limite (200 <= 100) -> False
+# Resultado: True and False -> False
+resultado_and = saldo >= saque and saque <= limite
+print("Resultado com AND (saldo >= saque e saque <= limite):", resultado_and)
+# Output: False
 
-# Invertendo o valor com NOT
-print("Inverso de pode_dirigir:", not pode_dirigir) # False
+
+# --- 2. EXEMPLO COM O OPERADOR 'or' ---
+# O operador 'or' exige que PELO MENOS UMA das condições seja True.
+
+saldo = 1000
+saque = 200
+limite = 100
+
+# Condição 1: saldo >= saque (1000 >= 200) -> True
+# Condição 2: saque <= limite (200 <= 100) -> False
+# Resultado: True or False -> True
+resultado_or = saldo >= saque or saque <= limite
+print("Resultado com OR (saldo >= saque ou saque <= limite):", resultado_or)
+# Output: True
+
+
+# --- 3. EXEMPLO COM O OPERADOR 'not' (NEGAÇÃO) ---
+# O 'not' inverte o valor de uma expressão ou avalia a "falsidade" de um valor (como listas ou textos vazios).
+
+contatos_emergencia = [] # Lista vazia (em Python, valores vazios são avaliados como False)
+
+# Negação de expressão matemática: 1000 > 1500 é False -> not False vira True
+print("not 1000 > 1500:", not 1000 > 1500)  # True
+
+# Negação de coleção vazia: contatos_emergencia é vazia (False) -> not False vira True
+print("not contatos_emergencia:", not contatos_emergencia)  # True
+
+# Negação de texto preenchido: "saque 1500;" tem conteúdo (True) -> not True vira False
+print("not 'saque 1500;':", not "saque 1500;")  # False
+
+# Negação de texto vazio: "" é uma string vazia (False) -> not False vira True
+print("not '':", not "")  # True
 ```
 
-### 🆔 5. Operadores de Identidade
+---
 
-Servem para verificar se dois objetos ocupam a mesma posição na memória do computador (is / is not). Nota: É diferente de comparar apenas o valor (==).
+### 5. Operadores de Identidade
+
+Comparam se dois objetos ocupam a **mesma posição na memória** do computador.
+
+* **`is`**: Retorna `True` se forem o mesmo objeto.
+* **`is not`**: Retorna `True` se **não** forem o mesmo objeto.
+
+#### Exemplo Prático (`05_identidade.py`)
 
 ```python
-# operadores_identidade.py
+lista_1 = [1, 2, 3]
+lista_2 = [1, 2, 3]
+lista_3 = lista_1
 
-lista_a = [1, 2, 3]
-lista_b = [1, 2, 3]
-lista_c = lista_a
-
-print("Valores são iguais? (==):", lista_a == lista_b) # True (mesmo conteúdo)
-print("São o mesmo objeto na memória? (is):", lista_a is lista_b) # False (locais diferentes)
-print("São o mesmo objeto na memória? (is):", lista_a is lista_c) # True (mesmo local)
-print("NÃO são o mesmo objeto? (is not):", lista_a is not lista_b) # True
+print("--- OPERADORES DE IDENTIDADE ---")
+print("lista_1 == lista_2 (mesmo conteúdo):", lista_1 == lista_2) # True
+print("lista_1 is lista_2 (mesmo local na memória):", lista_1 is lista_2) # False
+print("lista_1 is lista_3 (mesmo local na memória):", lista_1 is lista_3) # True
 ```
-  
-### 🔗 6. Operadores de Associação
 
-Servem para verificar se um elemento está presente dentro de uma sequência (como uma frase, lista ou texto) usando in e not in.
+---
+
+### 6. Operadores de Associação
+
+Verificam se um elemento está presente em uma sequência (strings, listas, tuplas, etc.).
+
+* **`in`**: Retorna `True` se o valor estiver presente.
+* **`not in`**: Retorna `True` se o valor **não** estiver presente.
+
+#### Exemplo Prático (`06_associacao.py`)
 
 ```python
-# operadores_identidade.py
+linguagem = "Python"
+tecnologias = ["Python", "VS Code", "Git", "GitHub"]
 
-lista_a = [1, 2, 3]
-lista_b = [1, 2, 3]
-lista_c = lista_a
-
-print("Valores são iguais? (==):", lista_a == lista_b) # True (mesmo conteúdo)
-print("São o mesmo objeto na memória? (is):", lista_a is lista_b) # False (locais diferentes)
-print("São o mesmo objeto na memória? (is):", lista_a is lista_c) # True (mesmo local)
-print("NÃO são o mesmo objeto? (is not):", lista_a is not lista_b) # True
+print("--- OPERADORES DE ASSOCIAÇÃO ---")
+print("'Py' está em linguagem?", "Py" in linguagem)             # True
+print("'HTML' está na lista de tecnologias?", "HTML" in tecnologias) # False
+print("'Java' NÃO está na lista?", "Java" not in tecnologias)     # True
 ```
 
-### 🎯 7. Exercícios Práticos do Módulo
+---
 
-1. **Calculadora Simples**: Crie um script que receba dois números pelo `input()` e exiba a soma, subtração, multiplicação e divisão entre eles.
-2. **Validador de Acesso**: Crie um script que verifique se o usuário pode entrar em um evento (requisitos: ter idade >= 18 e ter o nome em uma lista de convidados).
+### 7. Exercícios Práticos do Módulo
+
+1. **Calculadora de Saque Bancário**: Crie um script que receba o saldo da conta e o valor do saque desejado. Exiba no console se o saque é permitido usando operadores lógicos (`saldo >= saque` e `saque <= limite_diario`).
+2. **Validador de Lista Vazia**: Crie um script que defina uma lista de tarefas. Use o operador `not` para exibir uma mensagem avisando o usuário se a lista estiver vazia.
 
 ---
 
