@@ -1,4 +1,14 @@
+<div align="center">
+  
 # 📘 Módulo 5: Estruturas de Repetição em Python
+
+![Status](https://img.shields.io/badge/Status-Concluído-success)
+![Metodologia](https://img.shields.io/badge/Python-blue)
+![Nível](https://img.shields.io/badge/Nível-Iniciante-yellow)
+
+</div>
+
+---
 
 Bem-vindo ao **Módulo 5** do curso! Neste módulo, você aprenderá como automatizar tarefas repetitivas utilizando as estruturas de repetição `while` e `for`, além de controlar o fluxo de execução com `break` e `continue`.
 
