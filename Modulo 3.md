@@ -17,7 +17,7 @@
 4. [🧠 Operadores Lógicos](#4-operadores-lógicos)
 5. [🆔 Operadores de Identidade](#5-operadores-de-identidade)
 6. [🔗 Operadores de Associação](#6-operadores-de-associação)
-7. [🎯 Exercícios Práticos do Módulo](#7-exercícios-práticos-do-módulo)
+7. [🎯 Exercícios Práticos do Módulo](#-7-exercícios-práticos-do-módulo)
 8. [🔗 Como Contribuir / Contato](#-como-contribuir--contato)
 ---
 
