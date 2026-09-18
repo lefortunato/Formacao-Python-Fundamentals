@@ -12,23 +12,11 @@
 
 ## 📋 Sumário
 1. [🔢 Operadores Aritméticos](#1-operadores-aritméticos)
-   - [Tabela de Operadores](#tabela-de-operadores-aritméticos)
-   - [Exemplo Prático no VS Code](#exemplo-prático-operadores-aritméticos)
 2. [🔍 Operadores de Comparação](#2-operadores-de-comparação)
-   - [Tabela de Operadores](#tabela-de-operadores-de-comparação)
-   - [Exemplo Prático no VS Code](#exemplo-prático-operadores-de-comparação)
 3. [📝 Operadores de Atribuição](#3-operadores-de-atribuição)
-   - [Aplicações e Redução de Código](#aplicações-e-redução-de-código)
-   - [Exemplo Prático no VS Code](#exemplo-prático-operadores-de-atribuição)
 4. [🧠 Operadores Lógicos](#4-operadores-lógicos)
-   - [Entendendo `and`, `or` e `not`](#entendendo-and-or-e-not)
-   - [Exemplo Prático no VS Code](#exemplo-prático-operadores-lógicos)
 5. [🆔 Operadores de Identidade](#5-operadores-de-identidade)
-   - [Diferença entre `==` e `is`](#diferença-entre--e-is)
-   - [Exemplo Prático no VS Code](#exemplo-prático-operadores-de-identidade)
 6. [🔗 Operadores de Associação](#6-operadores-de-associação)
-   - [Busca de Elementos com `in` e `not in`](#busca-de-elementos-com-in-e-not-in)
-   - [Exemplo Prático no VS Code](#exemplo-prático-operadores-de-associação)
 7. [🎯 Exercícios Práticos do Módulo](#7-exercícios-práticos-do-módulo)
 8. [🔗 Como Contribuir / Contato](#-como-contribuir--contato)
 ---
