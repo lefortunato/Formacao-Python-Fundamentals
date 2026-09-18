@@ -21,6 +21,7 @@ Bem-vindo ao **Módulo 1**! O objetivo deste módulo é deixar o seu ambiente de
 3. [Instalando o Python pelo Terminal](#3-instalando-o-python-pelo-terminal)
 4. [Criando e Executando o "Hello World"](#4-seu-primeiro-código-hello-world)
 5. [Exercício Prático](#5-exercício-prático)
+6. [🔗 Como Contribuir / Contato](#-como-contribuir--contato)
 
 ---
 
@@ -114,3 +115,14 @@ Crie um arquivo chamado `exercicio_modulo1.py` na pasta `modulo_1/` e escreva um
 
 ### 🟢 Próximo Passo
 Após concluir os testes do Módulo 1, avançaremos para o **Módulo 2: Variáveis e Tipos de Dados**!
+
+---
+
+## 🔗 **Como Contribuir / Contato**</br></br>
+Este projeto foi desenvolvido como parte de um desafio prático de segurança cibernética. Sinta-se à vontade para explorá-lo, cloná-lo e adaptá-lo!
+
+| Botão | Ação |
+| :--- | :--- |
+| ⭐ Dar Estrela | Se gostou do projeto, considere dar uma estrela no GitHub. |
+| 🤝 Conecte-se | **<img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="Link para o LinkedIn" align="center"> <a href="https://www.linkedin.com/in/leandro-antonio-fortunato/" target="_blank">  Visite meu linkedin</a>**  |
+| 📧 Fale Comigo | 📧 [E-mail para contato](mailto:leandroantonio.fortunato@hotmail.com) |
