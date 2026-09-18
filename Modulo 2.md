@@ -23,6 +23,7 @@ Bem-vindo ao **Módulo 2**! Aqui você aprenderá como o Python armazena informa
 5. [Conversão de Tipos (Casting)](#5-conversão-de-tipos-casting)
 6. [Exemplo Prático Completo](#6-exemplo-prático-completo)
 7. [Exercícios Práticos](#7-exercícios-práticos)
+8. [🔗 Como Contribuir / Contato](#-como-contribuir--contato)
 
 ---
 
@@ -157,3 +158,14 @@ Crie uma pasta ou arquivo na pasta `modulo_2/` para resolver os exercícios:
 ### 🟢 Próximo Passo
 
 Com variáveis e tipos dominados, você já está pronto para realizar cálculos e operações complexas! O próximo passo é o **[Módulo 3: Tipos de Operadores](../modulo_3/sumario_modulo_3.md)**.
+
+---
+
+## 🔗 **Como Contribuir / Contato**</br></br>
+Este projeto foi desenvolvido como parte de um desafio prático de segurança cibernética. Sinta-se à vontade para explorá-lo, cloná-lo e adaptá-lo!
+
+| Botão | Ação |
+| :--- | :--- |
+| ⭐ Dar Estrela | Se gostou do projeto, considere dar uma estrela no GitHub. |
+| 🤝 Conecte-se | **<img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="Link para o LinkedIn" align="center"> <a href="https://www.linkedin.com/in/leandro-antonio-fortunato/" target="_blank">  Visite meu linkedin</a>**  |
+| 📧 Fale Comigo | 📧 [E-mail para contato](mailto:leandroantonio.fortunato@hotmail.com) |
